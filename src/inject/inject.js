@@ -70,7 +70,6 @@ chrome.storage.sync.get("truck", function(data) {
 				keywords.push("truck");
 			}});
 
-console.log(keywords);
 
 
 

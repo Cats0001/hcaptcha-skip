@@ -36,7 +36,7 @@ async function handle_hcaptcha(bad_kw){
 		}
 	}
 	if (skipped) {
-		await sleep(250);
+		await sleep(450);
 		handle_hcaptcha(bad_kw); // in case it gets a double "negative" captcha, loop thru one more time
 	}
 }
